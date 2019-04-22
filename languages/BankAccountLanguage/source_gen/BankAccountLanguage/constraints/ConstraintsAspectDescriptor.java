@@ -21,7 +21,7 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
       case 0:
         return new Account_Constraints();
       case 1:
-        return new AccountTransfer_Constraints();
+        return new Transfer_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);

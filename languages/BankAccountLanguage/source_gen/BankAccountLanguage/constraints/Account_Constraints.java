@@ -54,17 +54,6 @@ public class Account_Constraints extends BaseConstraintsDescriptor {
         return !((SPropertyOperations.getString(propertyValue)).isEmpty());
       }
     });
-    properties.put(MetaAdapterFactory.getProperty(0xa149b9dcff0647ecL, 0xa44db3d8f112f02eL, 0x3b35fc9970f8ea50L, 0x3b35fc9970f8ebbdL, "type"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xa149b9dcff0647ecL, 0xa44db3d8f112f02eL, 0x3b35fc9970f8ea50L, 0x3b35fc9970f8ebbdL), this) {
-      @Override
-      public boolean hasOwnValidator() {
-        return true;
-      }
-      @Override
-      public boolean validateValue(SNode node, String propertyValue) {
-        String propertyName = "type";
-        return (SPropertyOperations.getString(propertyValue)).equals("Girokonto") || (SPropertyOperations.getString(propertyValue)).equals("Sparkonto");
-      }
-    });
     return properties;
   }
 }

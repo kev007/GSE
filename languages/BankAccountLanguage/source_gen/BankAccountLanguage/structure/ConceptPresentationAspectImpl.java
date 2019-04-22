@@ -10,7 +10,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Account;
-  private ConceptPresentation props_AccountTransfer;
+  private ConceptPresentation props_Transfer;
 
   @Override
   @Nullable
@@ -24,13 +24,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Account = cpb.create();
         }
         return props_Account;
-      case LanguageConceptSwitch.AccountTransfer:
-        if (props_AccountTransfer == null) {
+      case LanguageConceptSwitch.Transfer:
+        if (props_Transfer == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          props_AccountTransfer = cpb.create();
+          props_Transfer = cpb.create();
         }
-        return props_AccountTransfer;
+        return props_Transfer;
     }
     return null;
   }
