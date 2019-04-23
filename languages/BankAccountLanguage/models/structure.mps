@@ -155,5 +155,21 @@
       <property role="1uS6qo" value="Sparkonto" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2RO_m2jquYc">
+    <property role="EcuMT" value="3311435868046749580" />
+    <property role="TrG5h" value="BatchTransfer" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2RO_m2jquYd" role="1TKVEi">
+      <property role="IQ2ns" value="3311435868046749581" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="transfers" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3GPZ9_KXqGT" resolve="Transfer" />
+    </node>
+    <node concept="PrWs8" id="2RO_m2jrqhL" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

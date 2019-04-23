@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="a149b9dc-ff06-47ec-a44d-b3d8f112f02e" name="BankAccountLanguage">
+      <concept id="3311435868046749580" name="BankAccountLanguage.structure.BatchTransfer" flags="ng" index="2YBnFG">
+        <child id="3311435868046749581" name="transfers" index="2YBnFH" />
+      </concept>
       <concept id="4266593957958757177" name="BankAccountLanguage.structure.Transfer" flags="ng" index="1bK5uw">
         <property id="4266593957958757180" name="amount" index="1bK5u_" />
         <property id="4266593957959009976" name="id" index="1bN7Cx" />
@@ -39,12 +42,22 @@
     <property role="1bNhra" value="222" />
     <property role="1bNhs$" value="7" />
   </node>
-  <node concept="1bK5uw" id="7ifA8rg62sr">
-    <property role="TrG5h" value="TestTransfer" />
-    <property role="1bN7Cx" value="1" />
-    <property role="1bK5u_" value="5" />
-    <ref role="1bK4KJ" node="7ifA8rg62e5" resolve="Kevin-Giro" />
-    <ref role="1bKOBQ" node="7ifA8rg62lE" resolve="Kevin-Spar" />
+  <node concept="2YBnFG" id="2RO_m2jrTRA">
+    <property role="TrG5h" value="BatchTransfer1" />
+    <node concept="1bK5uw" id="2RO_m2jrTRB" role="2YBnFH">
+      <property role="TrG5h" value="Transfer1" />
+      <property role="1bK5u_" value="20" />
+      <property role="1bN7Cx" value="1" />
+      <ref role="1bK4KJ" node="7ifA8rg62e5" resolve="Kevin-Giro" />
+      <ref role="1bKOBQ" node="7ifA8rg62lE" resolve="Kevin-Spar" />
+    </node>
+    <node concept="1bK5uw" id="2RO_m2jrTSL" role="2YBnFH">
+      <property role="TrG5h" value="Transfer2" />
+      <property role="1bN7Cx" value="2" />
+      <property role="1bK5u_" value="1" />
+      <ref role="1bK4KJ" node="7ifA8rg62e5" resolve="Kevin-Giro" />
+      <ref role="1bKOBQ" node="7ifA8rg62lE" resolve="Kevin-Spar" />
+    </node>
   </node>
 </model>
 
