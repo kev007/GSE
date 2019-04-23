@@ -4,6 +4,13 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/BankAccountLanguage/BankAccountLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BankAccountLanguage/sandbox/BankAccountLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Step1/Step1.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Step1/sandbox/Step1.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Step2/Step2.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Step2/sandbox/Step2.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Unless/Unless.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Unless/sandbox/Unless.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/UnlessSolution/UnlessSolution.msd" folder="" />
     </projectModules>
   </component>
 </project>

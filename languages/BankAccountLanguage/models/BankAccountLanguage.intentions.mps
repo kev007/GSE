@@ -21,9 +21,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -98,9 +95,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
-        <child id="1180636770616" name="createdType" index="3zrR0E" />
-      </concept>
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
@@ -130,7 +124,7 @@
       <node concept="3clFbS" id="2RO_m2jqRyr" role="2VODD2">
         <node concept="3clFbF" id="2RO_m2jqRFy" role="3cqZAp">
           <node concept="Xl_RD" id="2RO_m2jqRX0" role="3clFbG">
-            <property role="Xl_RC" value="Convert transfer into a batch operation" />
+            <property role="Xl_RC" value="Convert Transfer into a Batch Operation" />
           </node>
         </node>
       </node>
@@ -213,7 +207,7 @@
       <node concept="3clFbS" id="2RO_m2jr4oc" role="2VODD2">
         <node concept="3clFbF" id="2RO_m2jr4z2" role="3cqZAp">
           <node concept="Xl_RD" id="2RO_m2jr4z1" role="3clFbG">
-            <property role="Xl_RC" value="Convert batch transfer into a single transfers" />
+            <property role="Xl_RC" value="Convert Batch Transfer into a Single Transfers" />
           </node>
         </node>
       </node>
@@ -243,15 +237,6 @@
             <node concept="1P9Npp" id="2RO_m2jr5$A" role="2OqNvi">
               <node concept="37vLTw" id="2RO_m2jr5$B" role="1P9ThW">
                 <ref role="3cqZAo" node="2RO_m2jr5$r" resolve="singleTransfer" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2RO_m2jrU4g" role="3cqZAp">
-          <node concept="2ShNRf" id="2RO_m2jrU4c" role="3clFbG">
-            <node concept="3zrR0B" id="2RO_m2jrUe9" role="2ShVmc">
-              <node concept="3Tqbb2" id="2RO_m2jrUeb" role="3zrR0E">
-                <ref role="ehGHo" to="3x8g:3GPZ9_KXqGT" resolve="Transfer" />
               </node>
             </node>
           </node>

@@ -7,9 +7,6 @@
   <imports />
   <registry>
     <language id="a149b9dc-ff06-47ec-a44d-b3d8f112f02e" name="BankAccountLanguage">
-      <concept id="3311435868046749580" name="BankAccountLanguage.structure.BatchTransfer" flags="ng" index="2YBnFG">
-        <child id="3311435868046749581" name="transfers" index="2YBnFH" />
-      </concept>
       <concept id="4266593957958757177" name="BankAccountLanguage.structure.Transfer" flags="ng" index="1bK5uw">
         <property id="4266593957958757180" name="amount" index="1bK5u_" />
         <property id="4266593957959009976" name="id" index="1bN7Cx" />
@@ -17,6 +14,7 @@
         <reference id="4266593957958825327" name="transfer_to" index="1bKOBQ" />
       </concept>
       <concept id="4266593957958969936" name="BankAccountLanguage.structure.Account" flags="ng" index="1bNhr9">
+        <property id="8117426324328016648" name="owner2" index="2nnKWN" />
         <property id="4266593957958969937" name="id" index="1bNhr8" />
         <property id="4266593957958969939" name="balance" index="1bNhra" />
         <property id="4266593957958969938" name="owner" index="1bNhrb" />
@@ -29,35 +27,32 @@
       </concept>
     </language>
   </registry>
-  <node concept="1bNhr9" id="7ifA8rg62e5">
-    <property role="TrG5h" value="Kevin-Giro" />
+  <node concept="1bNhr9" id="72AT3JBYul0">
     <property role="1bNhr8" value="1" />
     <property role="1bNhrb" value="Kevin" />
-    <property role="1bNhra" value="10" />
+    <property role="1bNhra" value="111" />
+    <property role="TrG5h" value="GiroTest" />
   </node>
-  <node concept="1bNhr9" id="7ifA8rg62lE">
-    <property role="TrG5h" value="Kevin-Spar" />
+  <node concept="1bNhr9" id="72AT3JBYul1">
     <property role="1bNhr8" value="2" />
     <property role="1bNhrb" value="Kevin" />
     <property role="1bNhra" value="222" />
     <property role="1bNhs$" value="7" />
+    <property role="TrG5h" value="SparTest" />
   </node>
-  <node concept="2YBnFG" id="2RO_m2jrTRA">
-    <property role="TrG5h" value="BatchTransfer1" />
-    <node concept="1bK5uw" id="2RO_m2jrTRB" role="2YBnFH">
-      <property role="TrG5h" value="Transfer1" />
-      <property role="1bK5u_" value="20" />
-      <property role="1bN7Cx" value="1" />
-      <ref role="1bK4KJ" node="7ifA8rg62e5" resolve="Kevin-Giro" />
-      <ref role="1bKOBQ" node="7ifA8rg62lE" resolve="Kevin-Spar" />
-    </node>
-    <node concept="1bK5uw" id="2RO_m2jrTSL" role="2YBnFH">
-      <property role="TrG5h" value="Transfer2" />
-      <property role="1bN7Cx" value="2" />
-      <property role="1bK5u_" value="1" />
-      <ref role="1bK4KJ" node="7ifA8rg62e5" resolve="Kevin-Giro" />
-      <ref role="1bKOBQ" node="7ifA8rg62lE" resolve="Kevin-Spar" />
-    </node>
+  <node concept="1bNhr9" id="72AT3JBYuXP">
+    <property role="TrG5h" value="JointAccount" />
+    <property role="1bNhr8" value="3" />
+    <property role="1bNhrb" value="Bob" />
+    <property role="2nnKWN" value="Alice" />
+    <property role="1bNhra" value="999" />
+  </node>
+  <node concept="1bK5uw" id="72AT3JC2eYy">
+    <property role="TrG5h" value="TestTransfer" />
+    <property role="1bN7Cx" value="1" />
+    <property role="1bK5u_" value="3" />
+    <ref role="1bK4KJ" node="72AT3JBYul0" resolve="GiroTest" />
+    <ref role="1bKOBQ" node="72AT3JBYuXP" resolve="JointAccount" />
   </node>
 </model>
 

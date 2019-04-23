@@ -4,40 +4,31 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
-  <root nodeRef="r:96faee03-01fe-4418-8b5f-9be60ac44034(BankAccountLanguage.sandbox)/8399099534853547803">
+  <root nodeRef="r:96faee03-01fe-4418-8b5f-9be60ac44034(BankAccountLanguage.sandbox)/8117426324329000866">
     <file name="map_Transfer.java">
-      <node id="8399099534853547803" at="9,42,10,0" concept="2" />
-      <node id="8399099534853547803" at="10,0,11,15" concept="1" />
-      <node id="8399099534853547803" at="11,15,12,19" concept="1" />
-      <node id="8399099534853547803" at="12,19,13,0" concept="2" />
-      <node id="8399099534853547803" at="13,0,14,23" concept="1" />
-      <node id="8399099534853547803" at="14,23,15,21" concept="1" />
-      <node id="8399099534853547803" at="15,21,16,0" concept="2" />
-      <node id="8399099534853547803" at="16,0,17,52" concept="0" />
-      <node id="8399099534853547803" at="17,52,18,0" concept="2" />
-      <node id="8399099534853547803" at="18,0,19,183" concept="1" />
-      <node id="8399099534853547803" at="19,183,20,46" concept="0" />
-      <node id="8399099534853547803" at="20,46,21,0" concept="2" />
-      <node id="8399099534853547803" at="21,0,22,38" concept="1" />
-      <node id="8399099534853547803" at="22,38,23,0" concept="2" />
-      <node id="8399099534853547803" at="23,0,24,0" concept="2" />
-      <node id="8399099534853547803" at="24,0,25,65" concept="0" />
-      <node id="8399099534853547803" at="25,65,26,77" concept="0" />
-      <node id="8399099534853547803" at="26,77,27,75" concept="0" />
-      <node id="8399099534853547803" at="27,75,28,53" concept="0" />
-      <node id="8399099534853547803" at="9,0,30,0" concept="3" trace="main#([Ljava/lang/String;)V" />
-      <scope id="8399099534853547803" at="9,42,28,53">
-        <var name="amount" id="8399099534853547803" />
-        <var name="from" id="8399099534853547803" />
-        <var name="fromType" id="8399099534853547803" />
-        <var name="fromTypeId" id="8399099534853547803" />
-        <var name="id" id="8399099534853547803" />
-        <var name="toTypeId" id="8399099534853547803" />
+      <node id="8117426324329000866" at="7,42,8,0" concept="2" />
+      <node id="8117426324329000866" at="8,0,9,15" concept="1" />
+      <node id="8117426324329000866" at="9,15,10,19" concept="1" />
+      <node id="8117426324329000866" at="10,19,11,0" concept="2" />
+      <node id="8117426324329000866" at="11,0,12,23" concept="1" />
+      <node id="8117426324329000866" at="12,23,13,21" concept="1" />
+      <node id="8117426324329000866" at="13,21,14,0" concept="2" />
+      <node id="8117426324329000866" at="14,0,15,52" concept="0" />
+      <node id="8117426324329000866" at="15,52,16,0" concept="2" />
+      <node id="8117426324329000866" at="16,0,17,0" concept="2" />
+      <node id="8117426324329000866" at="17,0,18,0" concept="2" />
+      <node id="8117426324329000866" at="18,0,19,0" concept="2" />
+      <node id="8117426324329000866" at="7,0,21,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <scope id="8117426324329000866" at="7,42,19,0">
+        <var name="amount" id="8117426324329000866" />
+        <var name="fromTypeId" id="8117426324329000866" />
+        <var name="id" id="8117426324329000866" />
+        <var name="toTypeId" id="8117426324329000866" />
       </scope>
-      <scope id="8399099534853547803" at="9,0,30,0">
-        <var name="args" id="8399099534853547803" />
+      <scope id="8117426324329000866" at="7,0,21,0">
+        <var name="args" id="8117426324329000866" />
       </scope>
-      <unit id="8399099534853547803" at="8,0,31,0" name="BankAccountLanguage.sandbox.map_Transfer" />
+      <unit id="8117426324329000866" at="6,0,22,0" name="BankAccountLanguage.sandbox.map_Transfer" />
     </file>
   </root>
 </debug-info>
