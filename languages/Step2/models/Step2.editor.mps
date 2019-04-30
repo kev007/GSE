@@ -49,7 +49,7 @@
     <node concept="3EZMnI" id="2Ixi4kPkSET" role="2wV5jI">
       <node concept="l2Vlx" id="2Ixi4kPkSEU" role="2iSdaV" />
       <node concept="3F0ifn" id="2Ixi4kPkSEV" role="3EZMnx">
-        <property role="3F0ifm" value="account" />
+        <property role="3F0ifm" value="Step2Editor" />
       </node>
       <node concept="3F0A7n" id="2Ixi4kPl4Av" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -65,7 +65,7 @@
       </node>
       <node concept="3EZMnI" id="2Ixi4kPkSF0" role="3EZMnx">
         <node concept="3F0ifn" id="3GPZ9_KXD7y" role="3EZMnx">
-          <property role="3F0ifm" value="Value" />
+          <property role="3F0ifm" value="Step2Value" />
         </node>
         <node concept="3F0ifn" id="3GPZ9_KYbjB" role="3EZMnx">
           <property role="3F0ifm" value=":" />

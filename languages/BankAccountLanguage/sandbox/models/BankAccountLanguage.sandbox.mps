@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="a149b9dc-ff06-47ec-a44d-b3d8f112f02e" name="BankAccountLanguage">
+      <concept id="3311435868046749580" name="BankAccountLanguage.structure.BatchTransfer" flags="ng" index="2YBnFG">
+        <child id="3311435868046749581" name="transfers" index="2YBnFH" />
+      </concept>
       <concept id="4266593957958757177" name="BankAccountLanguage.structure.Transfer" flags="ng" index="1bK5uw">
         <property id="4266593957958757180" name="amount" index="1bK5u_" />
         <property id="4266593957959009976" name="id" index="1bN7Cx" />
@@ -43,16 +46,19 @@
   <node concept="1bNhr9" id="72AT3JBYuXP">
     <property role="TrG5h" value="JointAccount" />
     <property role="1bNhr8" value="3" />
-    <property role="1bNhrb" value="Bob" />
-    <property role="2nnKWN" value="Alice" />
+    <property role="1bNhrb" value="Alice" />
+    <property role="2nnKWN" value="Bob" />
     <property role="1bNhra" value="999" />
   </node>
-  <node concept="1bK5uw" id="72AT3JC2eYy">
-    <property role="TrG5h" value="TestTransfer" />
-    <property role="1bN7Cx" value="1" />
-    <property role="1bK5u_" value="3" />
-    <ref role="1bK4KJ" node="72AT3JBYul0" resolve="GiroTest" />
-    <ref role="1bKOBQ" node="72AT3JBYuXP" resolve="JointAccount" />
+  <node concept="2YBnFG" id="34DilVzk77L">
+    <property role="TrG5h" value="BatchTransfer[1]" />
+    <node concept="1bK5uw" id="34DilVzk77M" role="2YBnFH">
+      <property role="TrG5h" value="TestTransfer" />
+      <property role="1bN7Cx" value="1" />
+      <property role="1bK5u_" value="3" />
+      <ref role="1bK4KJ" node="72AT3JBYul0" resolve="GiroTest" />
+      <ref role="1bKOBQ" node="72AT3JBYuXP" resolve="JointAccount" />
+    </node>
   </node>
 </model>
 
